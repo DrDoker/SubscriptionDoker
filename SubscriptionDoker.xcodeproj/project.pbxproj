@@ -6,17 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C5B640F62CADD7D70047A336 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B640F02CADD7D70047A336 /* Preview Assets.xcassets */; };
+		C5B640F72CADD7D70047A336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B640F22CADD7D70047A336 /* Assets.xcassets */; };
+		C5B640F82CADD7D70047A336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640F32CADD7D70047A336 /* ContentView.swift */; };
+		C5B640F92CADD7D70047A336 /* SubscriptionDokerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640F42CADD7D70047A336 /* SubscriptionDokerApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		C5B640DF2CADD7D10047A336 /* SubscriptionDoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubscriptionDoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B640F02CADD7D70047A336 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5B640F22CADD7D70047A336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5B640F32CADD7D70047A336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5B640F42CADD7D70047A336 /* SubscriptionDokerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDokerApp.swift; sourceTree = "<group>"; };
+		C5B640FA2CADD7FE0047A336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C5B640E12CADD7D10047A336 /* SubscriptionDoker */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SubscriptionDoker;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C5B640DC2CADD7D10047A336 /* Frameworks */ = {
@@ -32,7 +36,7 @@
 		C5B640D62CADD7D10047A336 = {
 			isa = PBXGroup;
 			children = (
-				C5B640E12CADD7D10047A336 /* SubscriptionDoker */,
+				C5B640F52CADD7D70047A336 /* SubscriptionDoker */,
 				C5B640E02CADD7D10047A336 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +47,26 @@
 				C5B640DF2CADD7D10047A336 /* SubscriptionDoker.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C5B640F12CADD7D70047A336 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C5B640F02CADD7D70047A336 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C5B640F52CADD7D70047A336 /* SubscriptionDoker */ = {
+			isa = PBXGroup;
+			children = (
+				C5B640F42CADD7D70047A336 /* SubscriptionDokerApp.swift */,
+				C5B640F32CADD7D70047A336 /* ContentView.swift */,
+				C5B640FA2CADD7FE0047A336 /* Info.plist */,
+				C5B640F22CADD7D70047A336 /* Assets.xcassets */,
+				C5B640F12CADD7D70047A336 /* Preview Content */,
+			);
+			path = SubscriptionDoker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +83,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C5B640E12CADD7D10047A336 /* SubscriptionDoker */,
 			);
 			name = SubscriptionDoker;
 			packageProductDependencies = (
@@ -109,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B640F62CADD7D70047A336 /* Preview Assets.xcassets in Resources */,
+				C5B640F72CADD7D70047A336 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B640F82CADD7D70047A336 /* ContentView.swift in Sources */,
+				C5B640F92CADD7D70047A336 /* SubscriptionDokerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +280,7 @@
 				DEVELOPMENT_TEAM = N2XAP4CLZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubscriptionDoker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +310,7 @@
 				DEVELOPMENT_TEAM = N2XAP4CLZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubscriptionDoker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
