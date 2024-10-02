@@ -11,6 +11,11 @@
 		C5B640F72CADD7D70047A336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B640F22CADD7D70047A336 /* Assets.xcassets */; };
 		C5B640F82CADD7D70047A336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640F32CADD7D70047A336 /* ContentView.swift */; };
 		C5B640F92CADD7D70047A336 /* SubscriptionDokerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640F42CADD7D70047A336 /* SubscriptionDokerApp.swift */; };
+		C5B640FD2CADDBD70047A336 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B640FC2CADDBD70047A336 /* StoreKit.framework */; };
+		C5B641042CADDEE70047A336 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5B641022CADDEE70047A336 /* Products.plist */; };
+		C5B641062CADDEE70047A336 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640FE2CADDEE70047A336 /* SubscriptionView.swift */; };
+		C5B641072CADDEE70047A336 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640FF2CADDEE70047A336 /* PurchaseManager.swift */; };
+		C5B641082CADDEE70047A336 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B641002CADDEE70047A336 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		C5B640F32CADD7D70047A336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5B640F42CADD7D70047A336 /* SubscriptionDokerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDokerApp.swift; sourceTree = "<group>"; };
 		C5B640FA2CADD7FE0047A336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B640FC2CADDBD70047A336 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C5B640FE2CADDEE70047A336 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		C5B640FF2CADDEE70047A336 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		C5B641002CADDEE70047A336 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C5B641022CADDEE70047A336 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B640FD2CADDBD70047A336 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				C5B640F52CADD7D70047A336 /* SubscriptionDoker */,
+				C5B640FB2CADDBD70047A336 /* Frameworks */,
 				C5B640E02CADD7D10047A336 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,11 +74,31 @@
 			children = (
 				C5B640F42CADD7D70047A336 /* SubscriptionDokerApp.swift */,
 				C5B640F32CADD7D70047A336 /* ContentView.swift */,
+				C5B641032CADDEE70047A336 /* Subscription */,
 				C5B640FA2CADD7FE0047A336 /* Info.plist */,
 				C5B640F22CADD7D70047A336 /* Assets.xcassets */,
 				C5B640F12CADD7D70047A336 /* Preview Content */,
 			);
 			path = SubscriptionDoker;
+			sourceTree = "<group>";
+		};
+		C5B640FB2CADDBD70047A336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5B640FC2CADDBD70047A336 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5B641032CADDEE70047A336 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				C5B640FE2CADDEE70047A336 /* SubscriptionView.swift */,
+				C5B640FF2CADDEE70047A336 /* PurchaseManager.swift */,
+				C5B641002CADDEE70047A336 /* Config.swift */,
+				C5B641022CADDEE70047A336 /* Products.plist */,
+			);
+			path = Subscription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +164,7 @@
 			files = (
 				C5B640F62CADD7D70047A336 /* Preview Assets.xcassets in Resources */,
 				C5B640F72CADD7D70047A336 /* Assets.xcassets in Resources */,
+				C5B641042CADDEE70047A336 /* Products.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B640F82CADD7D70047A336 /* ContentView.swift in Sources */,
+				C5B641062CADDEE70047A336 /* SubscriptionView.swift in Sources */,
+				C5B641072CADDEE70047A336 /* PurchaseManager.swift in Sources */,
+				C5B641082CADDEE70047A336 /* Config.swift in Sources */,
 				C5B640F92CADD7D70047A336 /* SubscriptionDokerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
