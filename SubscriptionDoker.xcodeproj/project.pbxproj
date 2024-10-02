@@ -16,6 +16,7 @@
 		C5B641062CADDEE70047A336 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640FE2CADDEE70047A336 /* SubscriptionView.swift */; };
 		C5B641072CADDEE70047A336 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B640FF2CADDEE70047A336 /* PurchaseManager.swift */; };
 		C5B641082CADDEE70047A336 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B641002CADDEE70047A336 /* Config.swift */; };
+		C5B6410C2CADE4830047A336 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = C5B6410B2CADE4830047A336 /* Products.storekit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C5B640FF2CADDEE70047A336 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		C5B641002CADDEE70047A336 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		C5B641022CADDEE70047A336 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		C5B6410B2CADE4830047A336 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				C5B640FE2CADDEE70047A336 /* SubscriptionView.swift */,
 				C5B640FF2CADDEE70047A336 /* PurchaseManager.swift */,
 				C5B641002CADDEE70047A336 /* Config.swift */,
+				C5B6410B2CADE4830047A336 /* Products.storekit */,
 				C5B641022CADDEE70047A336 /* Products.plist */,
 			);
 			path = Subscription;
@@ -162,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B6410C2CADE4830047A336 /* Products.storekit in Resources */,
 				C5B640F62CADD7D70047A336 /* Preview Assets.xcassets in Resources */,
 				C5B640F72CADD7D70047A336 /* Assets.xcassets in Resources */,
 				C5B641042CADDEE70047A336 /* Products.plist in Resources */,
