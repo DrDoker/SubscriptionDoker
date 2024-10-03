@@ -1,0 +1,155 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "9923E3E4",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "0BB057E9",
+      "localizations" : [
+
+      ],
+      "name" : "PremiumSubscribtion",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "681F361B",
+          "introductoryOffer" : {
+            "internalID" : "FDC026FA",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Premium Month Description",
+              "displayName" : "Premium Month",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.tsodev.SubscriptionDoker.premiumMonth",
+          "promotionalImageID" : "6EB2DBAB",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Month",
+          "subscriptionGroupID" : "0BB057E9",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "11.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "FFD753F9",
+          "introductoryOffer" : {
+            "internalID" : "A96175E0",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Premium Year Description",
+              "displayName" : "Premium Year",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.tsodev.SubscriptionDoker.premiumYear",
+          "promotionalImageID" : "6EB2DBAB",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Year",
+          "subscriptionGroupID" : "0BB057E9",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

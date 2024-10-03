@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct SubscriptionDokerApp: App {
-    @StateObject var purchaseManager = PurchaseManager()
     
     var body: some Scene {
         WindowGroup {
-            SubscriptionView()
-                .environmentObject(purchaseManager)
+            ContentView()
             
         }
     }

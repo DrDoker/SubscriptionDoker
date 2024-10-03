@@ -9,7 +9,7 @@
       }
     ]
   },
-  "identifier" : "E2C00BFB",
+  "identifier" : "D4B0C880",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -20,7 +20,9 @@
     "_applicationInternalID" : "6736413054",
     "_developerTeamID" : "N2XAP4CLZT",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 749594519.62536001,
+    "_lastSynchronizedDate" : 749660012.08240902,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
     "_storeKitErrors" : [
       {
         "current" : null,
@@ -70,7 +72,43 @@
     ]
   },
   "subscriptionGroups" : [
+    {
+      "id" : "21551379",
+      "localizations" : [
 
+      ],
+      "name" : "PremiumSubscribtion",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6736426436",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Premium Year Description",
+              "displayName" : "Premium Year",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.tsodev.SubscriptionDoker.premiumYear",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Year",
+          "subscriptionGroupID" : "21551379",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
   ],
   "version" : {
     "major" : 4,

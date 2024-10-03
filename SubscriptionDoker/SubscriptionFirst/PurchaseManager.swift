@@ -155,7 +155,7 @@ final class PurchaseManager: ObservableObject {
         switch status.transaction {
         case .verified(let transaction):
             return transaction.expirationDate
-        case .unverified(_):
+        case .unverified:
             return nil
         }
     }
